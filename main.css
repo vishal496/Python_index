@@ -1,0 +1,102 @@
+*{
+	margin:0px;
+	padding:0px;
+	list-style-type:none;
+	
+}
+
+
+body{
+	background-color:white;
+}
+
+header,nav,aside,section,footer{
+	display:block;
+	
+}
+
+.clear{
+	clear:both;
+}
+
+.container{
+	background-color:#66CCFF;
+	width:1000px;
+	margin:0px auto;
+}
+
+
+.logo{
+	width:250px;
+	height:100px;
+	float:left;
+	margin:5px 0px 0px 5px;
+}
+
+.graph{
+	
+	padding:10px;
+	width:550px;
+	height:250px
+}
+
+.nav{
+	float:left;
+	padding:10px;
+	margin:10px 10px 10px 10px;
+}
+
+.nav ul li{
+	border-radius:10px;
+	width:90px;
+	margin:10px 10px 10px 10px;
+	background-color:orange;
+	display:inline-block;
+	float:left;
+	padding:10px 10px 10px 50px;
+}
+
+.left_side{
+	float:left;
+	width:600px;
+}
+
+.left_side article{
+	
+	padding:10px;
+	
+}
+
+.right_side{
+	float:left;
+	width:400px; 
+	
+}
+
+.right_side div{
+	padding:10px;
+}
+
+.page_footer{
+	clear:both;
+	text-align:center;
+}
+
+.entries{
+	width:300px;
+	padding:5px;
+}
+
+.entries label{
+	float:left;
+	width:80px;
+}
+
+.entries select{
+	margin-left:25px;
+}
+
+fieldset{
+	background-color: rgb(255,128,128);
+}
+
